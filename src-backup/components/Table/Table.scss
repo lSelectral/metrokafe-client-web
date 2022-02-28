@@ -1,0 +1,72 @@
+.dataGrid{
+    height: 70%; 
+    width: 100%;
+    border: 3px solid rgb(93, 244, 255);
+}
+
+.idColumn{background-color: rgb(255, 229, 195);}
+.dateColumn{}
+.nameColumn{background-color: rgb(255, 229, 195);}
+.waitTimeColumn{}
+.phoneColumn{background-color: rgb(255, 229, 195);}
+.locationColumn{}
+.reservedTableColumn{background-color: rgb(255, 229, 195);}
+.editColumn{}
+
+.deleteButton{
+    cursor: pointer;
+    color: rgb(226, 81, 81);
+    margin-left: 1px;
+    margin-top: 1px;
+}
+
+
+.dateRelativeContainer{
+    position: relative;
+    height: 20px;
+}
+
+.dateProgressbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 100px;
+}
+
+.dateText{
+    top: 5;
+    left: 0;
+    position: absolute;
+    z-index: 9999;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.iconContainer{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(53, 52, 52);
+    border-radius: 50%;
+    margin-right: 5px;
+
+    :hover{
+        background-color: lime;
+        border-radius: 50%;
+    }
+}
+
+.arrow{
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 1px;
+    margin-top: 1px;
+}
+
+.arrow.down{
+    color: red;
+}
+
+.arrow.up{
+    color: green;
+}
